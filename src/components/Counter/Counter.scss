@@ -1,0 +1,27 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  & > * {
+    color: #ba8fff;
+    font-weight: bold;
+  }
+
+  button {
+    margin: 0 1rem;
+    border-radius: 32px;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+
+.light {
+  background: #e0e0e0;
+}
+
+.dark {
+  background: #242526;
+}
